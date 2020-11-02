@@ -54,14 +54,11 @@ function GetBookings() {
           method: 'DELETE',
         })
         .then((response) => {
+          location.reload();
           
-          GetBookings();
         });
       }else{
         alert("delete cancelled")
 ;      }
 
-      
-    document.getElementById("deleteBooking").addEventListener("click",function() {
-      DeleteBooking(document.getElementById ("deleteId").value);
-    });
+  
