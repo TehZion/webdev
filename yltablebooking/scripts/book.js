@@ -28,3 +28,13 @@ function BookNow (guestName, guestEmail, guestPax) {
    let guestPax = document.getElementById("guestPax").value;
    BookNow(guestName, guestEmail, guestPax);
   });  
+
+
+  document.getElementById("bookNow").addEventListener("click",function(){
+        let name = document.getElementById("guestName").value;
+        let name = document.getElementById("guestEmail").value;
+        let name = document.getElementById("guestPax").value;
+        let name = document.getElementById("guestRemarks".value;
+
+
+  })
