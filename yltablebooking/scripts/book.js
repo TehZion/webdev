@@ -39,3 +39,6 @@ function BookNow (guestName, guestEmail, guestPax, guestRemarks) {
 
         BookNow(name,email,remarks)
   })
+
+
+  s
