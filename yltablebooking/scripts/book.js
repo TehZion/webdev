@@ -1,4 +1,4 @@
-function BookNow (guestName, guestEmail, guestPax) {
+function BookNow (guestName, guestEmail, guestPax, guestRemarks) {
     let url = 'https://api.sheety.co/8cc78b5b6542ce0e5366f57fb2560013/booking/bookings';
     let body = {
       booking: {
@@ -36,5 +36,5 @@ function BookNow (guestName, guestEmail, guestPax) {
         let name = document.getElementById("guestPax").value;
         let name = document.getElementById("guestRemarks".value;
 
-
+        BookNow(name,email,remarks)
   })
