@@ -1,6 +1,6 @@
-let bookingList = document.getElementById("booking-list");
-document.addEventListener("load",function(){
-        GetBooking();
+
+window.addEventListener("load",function(){
+        GetBooking();list js
 });
 
 function GetBookings() {
